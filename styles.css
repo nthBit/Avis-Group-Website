@@ -135,6 +135,7 @@
     flex-direction: column;
     align-items: center;
     background-color: #E5E7EB;
+    height: 425px;
 }
 
 .quote {
@@ -146,9 +147,10 @@
 }
 
 .quote p {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 300;
-    color: #1F2937
+    font-style: italic;
+    color: #1F2937;
 }
 
 .quote h2 {
