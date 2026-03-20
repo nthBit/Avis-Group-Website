@@ -89,6 +89,7 @@
     justify-content: center;
     align-items: center;
     height: 450px;
+    margin-bottom: 75px;
     gap: 50px;
 }
 
@@ -123,5 +124,35 @@
 
 .card p {
     font-size: 16px;
+    font-weight: 400;
     color: #1F2937;
+}
+
+/* Testimonial */
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding: 125px 0;
+    gap: 20px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937
+}
+
+.quote h2 {
+    text-align: end;
+    margin-right: 100px;
+    color: #1F2937
 }
