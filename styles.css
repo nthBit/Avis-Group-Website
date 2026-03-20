@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 /* Header Hero */
@@ -12,7 +13,6 @@
     width: 100%;
     height: 550px;
     background-color: #1F2937;
-    font-family: "Roboto", sans-serif;;
 }
 
 .header-hero-inner {
@@ -50,6 +50,8 @@
 
 .hero-outer img {
     width: 500px;
+    border: #3882F6 solid 4px;
+    border-radius: 8px;
 }
 
 .hero-inner button {
@@ -77,4 +79,49 @@
 .hero-content p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+/* Information */
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    gap: 50px;
+}
+
+.info-container h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-cards {
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    gap: 20px;
+    text-align: center;
+}
+
+.card img {
+    flex-shrink: 0;
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: #3882F6 solid 4px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #1F2937;
 }
