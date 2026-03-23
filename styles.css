@@ -158,3 +158,48 @@
     margin-right: 100px;
     color: #1F2937
 }
+
+/* Contact */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.contact-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #3882F6;
+    width: 1000px;
+    border-radius: 8px;
+}
+
+.contact-card button {
+    padding: 0 25px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    border: #F9FAF8 solid 2px;
+    height: 40px;
+}
+
+.info h2 {
+    color: #F9FAF8;
+}
+
+.info p {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+
+
+
+
+
