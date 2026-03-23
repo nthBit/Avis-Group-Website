@@ -161,14 +161,14 @@
 
 /* Contact */
 
-.contact {
+.booking {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 350px;
 }
 
-.contact-card {
+.booking-card {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -178,7 +178,7 @@
     border-radius: 8px;
 }
 
-.contact-card button {
+.booking-card button {
     padding: 0 25px;
     border-radius: 8px;
     background-color: #3882F6;
@@ -197,9 +197,3 @@
     color: #F9FAF8;
     font-size: 18px;
 }
-
-
-
-
-
-
